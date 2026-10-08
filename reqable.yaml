@@ -14,7 +14,7 @@ external-controller: 127.0.0.1:9090
 proxies:
   - name: "Reqable"
     type: http                    # HTTP 类型同时支持 HTTP/HTTPS 代理
-    server: 127.0.0.1
+    server: 192.168.10.150
     port: 9000                    # 必须与 Reqable 监听的端口一致
     udp: false                    # HTTP 代理不支持 UDP，如需要可另配 SOCKS5
 
